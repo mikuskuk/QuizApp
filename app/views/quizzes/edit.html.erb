@@ -1,0 +1,7 @@
+<h1>Editing Quiz</h1>
+
+<%= render 'form', quiz: @quiz %>
+
+<%= link_to 'Show', @quiz %> |
+<%= link_to 'Back', quizzes_path %>
+<%= button_to 'Destroy', @quiz, method: :delete, data: { turbo_method: :delete, turbo_confirm: 'Are you sure?' } %>
