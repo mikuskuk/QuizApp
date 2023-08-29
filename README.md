@@ -20,8 +20,8 @@ QuizApp is a web application that allows users to create, manage, and take quizz
 
 ## Installation
 
-1. Clone the repository: `git clone git@github.com:mitigate-akademija/grupa-5.git`
-2. Navigate to the project directory: `cd grupa-5/quiz`
+1. Clone the repository: `git clone git@github.com:mikuskuk/QuizApp.git`
+2. Navigate to the project directory: `QuizApp`
 3. Install dependencies: `bundle install`
 4. Set up the database: `rails db:setup`
 5. Start the server: `rails server`
